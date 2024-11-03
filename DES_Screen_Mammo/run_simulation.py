@@ -14,9 +14,9 @@ def parse_arguments():
     parser.add_argument("--no_1ss", choices=["True", "False"], default="True",
                         help="Specify 'True' to use no 1-step simulation or 'False' to enable 1-step simulation (default is 'True')")
     parser.add_argument("--num_scanner", type=int, default=3, help="Number of mammography scanners")
-    parser.add_argument("--num_us_machine", type=int, default=5, help="Number of ultrasound machines")
+    parser.add_argument("--num_us_machine", type=int, default=2, help="Number of ultrasound machines")
     parser.add_argument("--stoptime", type=float, default=8.5, help="Time to stop the simulation in hours")
-    parser.add_argument("--num_iteration", type=int, default=500, help="Number of simulation iterations")
+    parser.add_argument("--num_iteration", type=int, default=10, help="Number of simulation iterations")
     return parser.parse_args()
 
 
