@@ -55,8 +55,10 @@ The following is a list of parameters to explore.
 > num_iteration: Number of clinic days of the simulation
 
 ### Step 4 - Output and post-simulation analysis
-
 The output of the simulation will be saved in the ./DES_Screen_Mammo/Output_1ss/ or ./DES_Screen_Mammo/Output_no_1ss/ folder. Each patient and the timestamp of each step are logged for post-simuluation analysis. The two workflows are logged separately. An example of the output file is as follows. The columns in the output file logs the timestamp for each step and waiting times inbetween steps. The lengty of stay in the clinic can be calculdated using (exit_system_ts-arrival_ts). Each output file stores inforamation of one simulated clinic day. 
+
+<img width="863" alt="Screenshot 2024-11-03 at 10 19 48 AM" src="https://github.com/user-attachments/assets/d41f987e-8dcb-4097-ba76-c79513a2847a">
+
 
 
 
