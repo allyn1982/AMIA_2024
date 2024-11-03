@@ -12,7 +12,7 @@ def parse_arguments():
     parser = argparse.ArgumentParser(description="Run mammography clinic simulation with flexible parameters.")
     parser.add_argument("--seed", type=int, default=42, help="Random seed for reproducibility")
     parser.add_argument("--no_1ss", choices=["True", "False"], default="True",
-                        help="Specify 'True' to use no 1-step simulation or 'False' to enable 1-step simulation (default is 'True')")
+                        help="Specify 'True' to use no 1ss simulation or 'False' to enable 1ss simulation (default is 'True')")
     parser.add_argument("--num_scanner", type=int, default=3, help="Number of mammography scanners")
     parser.add_argument("--num_us_machine", type=int, default=2, help="Number of ultrasound machines")
     parser.add_argument("--stoptime", type=float, default=8.5, help="Time to stop the simulation in hours")
