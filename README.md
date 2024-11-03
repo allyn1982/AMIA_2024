@@ -15,6 +15,7 @@ Yannan Lin, MD, MPH, PhD1, Anne C. Hoyt, MD2, Vladimir G. Manuel, MD3,4, Moira I
 The process of patients waiting for diagnostic examinations after an abnormal screening mammogram is inefficient and anxiety-inducing. Artificial intelligence (AI)-aided interpretation of screening mammography could reduce the number of recalls after screening. We proposed a same-day diagnostic workup to alleviate patient anxiety by employing an AI-aided interpretation to reduce unnecessary diagnostic testing after an abnormal screening mammogram. However, the potential unintended consequences of introducing this workflow in a high-volume breast imaging center are unknown. This repo allows the users to explore different scenarios of the proposed same-day diagnostic workup by changing the number of mammography and ultrasound machines and imaging center operating hours. This enables us to further determine potential changes on patient waiting times or lenght of stay in the clinia. The supplemental materials of the paper is titled AMIA_supplemental materials.docx in this repo. 
 
 Link to the paper: https://pubmed.ncbi.nlm.nih.gov/38827101/ 
+
 Please cite: Lin Y, Hoyt AC, Manuel VG, Inkelas M, Hsu W. Using Discrete Event Simulation to Design and Assess an AI-aided Workflow for Same-day Diagnostic Testing of Women Undergoing Breast Screening. AMIA Jt Summits Transl Sci Proc. 2024;2024:314-323. Published 2024 May 31.
 
 The baseline and same-day diagnostic workup workflow is illustrated as follows.
