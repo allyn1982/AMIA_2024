@@ -40,7 +40,7 @@ By default, the simulation runs the baseline workflow (no_1ss=True) with num_int
 
 An example of the same-day diagnostic workflow with 3 mammography machines, 3 ulstrasound machines, 8.5 hours of imaging center operating time, and 100 iterations. 
 
-`python run_simulation.py --no_1ss False --num_scanncer 3 --num_us_machine 3 --stoptime 8.5 --num_iteration
+`python run_simulation.py --no_1ss False --num_scanncer 3 --num_us_machine 3 --stoptime 8.5 --num_iteration 100
 
 The following is a list of parameters to explore.
 
